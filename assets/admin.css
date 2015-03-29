@@ -1,0 +1,26 @@
+#octonauts, form {
+	display: inline-block;
+	vertical-align: top;
+}
+form {
+	margin-left: 20px;
+}
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+form {
+	font-size: 30px;
+}
+
+.btn-group-justified {
+	margin-left: 350px;
+	margin-bottom: 40px;
+}
+h3 {
+	margin-left: 400px;
+}
+.btn-primary, .btn-danger {
+	display: inline-block;
+	vertical-align: top;
+}
