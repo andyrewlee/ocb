@@ -1,0 +1,18 @@
+.jumbotron h1, p{
+	padding: 10px;
+	text-align: center;
+}
+
+.main-content{
+	font-size: 16px;
+}
+
+.comments{
+	padding: 5px;
+	border-bottom: solid 1px #999;
+}
+
+.other-posts a{
+	display: block;
+	padding: 5px;
+}
