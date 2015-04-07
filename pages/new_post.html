@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../assets/new_post.css">
 </head>
 <body>
-<!--navbar-->
+	<!--navbar-->
 	<div id="container">
 		<div class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
@@ -29,22 +29,26 @@
 			</div>
 		</div>
 		<!--end navbar-->
-		<h3>New Post</h3>
-		<div class="btn-group btn-group-justified" style="width: 300px">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<h3>New Post</h3>
 			<a href="#" class="btn btn-success">Publish</a>
-			<a href="#" class="btn btn-info">Save</a>
-			<a href="#" class="btn btn-danger">Preview</a>
-		</div>
-		<br>
-		<form>
-			Post Title: <input type="text" name="title" size="75">
-			<img src="images/addpic.png" alt="addpic" width="30px" height="30px">
-			<img src="images/bold.png" alt="bold" width="30px" height="30px">
-			<img src="images/italic.png" alt="italic" width="30px" height="30px"><br>
+			
 			<br>
-			<textarea rows="17" cols="100"></textarea>
-		</form>
-	</div>
+			<div class="col-md-8">
+				<form>
+					Post Title: <input type="text" name="title" size="75"><br/>
+					Images: <input type="text" name="images" size="40">
+					<input type="submit" name="submit">
+					<img src="images/bold.png" alt="bold" width="30px" height="30px">
+					<img src="images/italic.png" alt="italic" width="30px" height="30px"><br>
+					<br>
+					<textarea rows="17" cols="100"></textarea>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
 </body>
 </html>
 
